@@ -9,3 +9,4 @@ def check_distance(s: str, distance: List[int]) -> bool:
                 return False
         char_indices[char_idx] = i
     return False
+
