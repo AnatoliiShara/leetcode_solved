@@ -102,16 +102,6 @@ print(bubble_sort2([2,6,5,1,9]))
 print(bubble_sort2([7,5,-8,0,10,1]))
 
 
-def bubble_sort2(arr: List[int]) -> List[int]:
-	N = len(arr)
-	for i in range(0, N - 1):
-		for j in range(0, N - i - 1):
-			if arr[j] > arr[j + 1]:
-				arr[j], arr[j + 1] = arr[j + 1], arr[j]
-	return arr
-print(bubble_sort2([7,5,-8,0,10,1]))
-
-
 
 
 
