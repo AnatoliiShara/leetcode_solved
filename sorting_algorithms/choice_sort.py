@@ -63,76 +63,7 @@ def choice_sort(arr: List[int]) -> List[int]:
     return arr
 print(choice_sort([7,5,-8,0,10,1]))
 
-def choice_sort(arr: List[int]) -> List[int]:
-    n = len(arr)
-    for i in range(n):
-        min_ind = i
-        for j in range(i + 1, n):
-            if arr[j] < arr[min_ind]:
-                min_ind = j 
-        arr[j], arr[min_ind] = arr[min_ind], arr[j]
-    return arr
 
-def choice_sort(arr: List[int]) -> List[int]:
-    n = len(arr)
-    for i in range(n):
-        min_ind = i 
-        for j in range(i + 1, n):
-            if arr[j] < arr[min_ind]:
-                min_ind = j 
-        arr[j], arr[min_ind] = arr[min_ind], arr[j]
-    return arr
-
-def choice_sort(arr: List[int]) -> List[int]:
-    n = len(arr)
-    for i in range(n):
-        min_ind = i 
-        for j in range(i + 1, n):
-            if arr[j] < arr[min_ind]:
-                min_ind = j 
-        arr[j], arr[min_ind] = arr[min_ind], arr[j]
-    return arr
-
-def choice_sort(arr: List[int]) -> List[int]:
-    n = len(arr)
-    for i in range(n):
-        min_ind = i
-        for j in range(i + 1, n):
-            if arr[j] < arr[min_ind]:
-                min_ind = j 
-        arr[j], arr[min_ind] = arr[min_ind], arr[j]
-    return arr
-
-def choice_sort(arr: List[int]) -> List[int]:
-    n = len(arr)
-    for i in range(n):
-        min_ind = i
-        for j in range(i + 1, j):
-            if arr[j] < arr[min_ind]:
-                min_ind = j 
-        arr[j], arr[min_ind] = arr[min_ind], arr[j]
-    return arr
-
-def choice_sort(arr: List[int]) -> List[int]:
-    n = len(arr)
-    for i in range(n):
-        min_ind = i 
-        for j in range(i + 1, n):
-            if arr[j] < arr[min_ind]:
-                min_ind = j 
-        arr[j], arr[min_ind] = arr[min_ind], arr[j]
-    return arr
-
-def choice_sort(arr: List[int]) -> List[int]:
-    n = len(arr)
-    for i in range(n):
-        min_ind = i
-        for j in range(i + 1, n):
-            if arr[j] < arr[min_ind]:
-                min_ind = j
-        arr[j], arr[min_ind] = arr[min_ind], arr[j]
-    return arr
-    
 
 
 
