@@ -1,6 +1,15 @@
 from typing import List
 
 """
+def choice_sort(arr: List[int]) -> List[int]:
+    for i in range(len(arr)):
+        min_ind = i
+        for j in range(i + 1, len(arr)):
+            if arr[j] < arr[min_ind]:
+                min_ind = j
+        arr[i], arr[min_ind] = arr[min_ind], arr[i]
+    return arr
+print(choice_sort([7,5,-8,0,10,1]))
 Pass 1:
 
     i = 0: Initialize min_ind with 0. Start inner loop from j = 1 to 5 (length of array - 1).
@@ -39,7 +48,8 @@ Pass 4:
     i = 3: Initialize min_ind with 3. Start inner loop from j = 4 to 5.
         Compare arr[4] (10) and arr[3] (5). Since 5 is less than 10, update min_ind to 3.
         Compare arr[5] (7) and arr[3] (5). Since 5 is less than 7, update min_ind to 5.
-    Swap arr[3] (5) and arr[5] (7), but no change is needed since they are already in the correct order.
+    Swap arr[3] (5) and arr[5] (7), 
+    but no change is needed since they are already in the correct order.
 
 List after Pass 4: [-8, 0, 1, 5, 10, 7]
 
@@ -62,6 +72,11 @@ def choice_sort(arr: List[int]) -> List[int]:
         arr[i], arr[min_ind] = arr[min_ind], arr[i]
     return arr
 print(choice_sort([7,5,-8,0,10,1]))
+
+
+
+
+
 
 
 
