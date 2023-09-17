@@ -44,7 +44,40 @@ def arrayPartition(nums: List[int]) -> int:
 		summa += nums[i]
 	return summa
 
+def arrayPartition(nums: List[int]) -> int:
+	nums.sort()
+	summa = 0
+	for i in range(0, len(nums), 2):
+		summa += nums[i]
+	return summa
 
+def arrayPartition(nums: List[int]) -> int:
+	nums.sort()
+	summa = 0
+	for i in range(0, len(nums), 2):
+		summa += nums[i]
+	return summa
+
+def arrayPartition(nums: List[int]) -> int:
+	nums.sort()
+	summa = 0 
+	for i in range(0, len(nums), 2):
+		summa += nums[i]
+	return summa
+
+def arrayPartition(nums: List[int]) -> int:
+	nums.sort()
+	summa = 0 
+	for i in range(0, len(nums), 2):
+		summa += nums[i]
+	return summa
+
+def arrayPartition(nums: List[int]) -> int:
+	nums.sort()
+	summa = 0 
+	for i in range(0, len(nums), 2):
+		summa += nums[i]
+	return summa
 
 
 

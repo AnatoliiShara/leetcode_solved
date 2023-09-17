@@ -138,28 +138,10 @@ print(bubble_sort3([7,5,-8,0,10,1]))
 
 def bubble_sort3(arr: List[int]) -> List[int]:
 	n = len(arr)
-	for i in range(n):
+	for i in range(0, n - 1):
 		for j in range(0, n - i - 1):
 			if arr[j] > arr[j + 1]:
 				arr[j], arr[j + 1] = arr[j + 1], arr[j]
 	return arr
 print(bubble_sort3([7,5,-8,0,10,1]))
-
-def bubble_sort3(arr: List[int]) -> List[int]:
-	n = len(arr)
-	for i in range(n):
-		for j in range(0, n - i - 1):
-			if arr[j] < arr[j + 1]:
-				arr[j], arr[j + 1] = arr[j + 1], arr[j]
-	return arr
-print(bubble_sort3([7,5,-8,0,10,1]))
-
-
-
-
-
-
-
-
-
-
+print(bubble_sort3([-10,6,-8,0,10,1]))
